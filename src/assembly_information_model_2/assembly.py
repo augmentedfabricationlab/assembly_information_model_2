@@ -2,9 +2,9 @@ from __future__ import print_function
 from __future__ import absolute_import
 from __future__ import division
 
-from compas.datastructures import Assembly
+from compas.datastructures import Assembly as AssemblyCompas
 
-class Assembly(Assembly):
+class Assembly(AssemblyCompas):
     """A data structure for managing the connections between different parts of an assembly.
 
     Parameters
